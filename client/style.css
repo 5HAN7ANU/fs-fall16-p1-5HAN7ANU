@@ -1,0 +1,103 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: white;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#chirpBox {
+    width: 600px;
+    background: rgba(204, 204, 204, 0.5);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: left;
+    font-family: 'Great Vibes', Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.form-control {
+    width: 600px;
+    background: rgba(204, 204, 204, 0.5);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+    font-family: 'Great Vibes', Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.list-group-item {
+    width:800px;
+    background: rgba(204, 204, 204, 0.5);
+    color: orangered;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+    overflow-y:scroll;
+    font-family: 'Lobster Two', Helvetica, sans-serif;;
+    font-size: x-large;
+    border: white; 
+}
+
+#chirpButton {
+    width:80px;
+    background: rgba(204, 204, 204, 0.5);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    color: black;
+    text-align: center;
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: x-large;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-weight: bold;
+}
+
+.page-header {
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    text-align: center;
+    color: darkred;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    border-bottom: white;
+}
+
+.delete-button {
+    background: rgba(204, 204, 204, 0.5);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    float: right;
+}
+
+.wrapper {
+    margin:0 auto;
+}
+
+.static {     
+    z-index:2;
+    height:250px;
+    position: fixed;   
+    background-color: white;
+    float: center;
+    width: 100%;
+}
+
+.content {
+    height:800px;
+    float: center;
+    position:relative;
+    top: 265px;
+}
+
+h1 {
+    font-size: 5em;
+}
